@@ -10,8 +10,10 @@ def datosPersonales():
 if __name__ == "__main__":
     persona = {}
     continuar = True
+    #proceso
     while continuar:
         clave = input('¿Qué dato quieres introducir? ')
         valor = input(clave + ': ')
         persona[clave] = valor
+    #salida
         print(persona)

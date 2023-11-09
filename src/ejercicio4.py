@@ -10,8 +10,11 @@ def formatoFecha(fecha):
     
 if __name__ == "__main__":
     meses = {1:'enero', 2:'febrero', 3:'marzo', 4:'abril', 5:'mayo', 6:'junio', 7:'julio', 8:'agosto', 9:'septiembre', 10:'octubre', 11:'noviembre', 12:'diciembre'}
+    #entrada
     fecha = input("Escribe la fecha en formato dd/mm/aaaa: ")
+    #proceso
     fecha = fecha.split('/')
     mensaje = formatoFecha(fecha)
+    #salida
     print(mensaje)
     

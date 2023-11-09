@@ -14,6 +14,7 @@ def cestaCompra():
 if __name__ == "__main__":
     cesta = {}
     continuar = True
+    #proceso
     while continuar:
         item = input('Introduce un artículo: ')
         precio = float(input('Introduce el precio de ' + item + ': '))
@@ -24,5 +25,6 @@ if __name__ == "__main__":
     for item, precio in cesta.items():
         print(item,':', precio)
         coste += precio
+    #salida
     print('Coste total: ', coste)
 

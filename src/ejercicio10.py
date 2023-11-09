@@ -65,4 +65,5 @@ if __name__ == "__main__":
             for clave, valor in clientes.items():
                 if valor['preferente']:
                     print(clave, valor['nombre'])
+        #entrada
         opcion = input('Menú de opciones⬇️\n1️⃣  Añadir cliente\n2️⃣  Eliminar cliente\n3️⃣  Mostrar cliente\n4️⃣  Listar clientes\n5️⃣  Listar clientes preferentes\n6️⃣  Terminar\nElige una opción:')

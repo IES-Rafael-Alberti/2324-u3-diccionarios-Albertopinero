@@ -12,7 +12,9 @@ def monedasInternacionales(divisas,moneda):
 
 if __name__ == "__main__":
     divisas = {'euro':'€', 'dollar':'$', 'yen':'¥'}
+    #entrada
     moneda = input("Escribe la divisa para ver su símbolo(Euro, Dollar, Yen): ").lower()
+    #proceso
     if moneda == "euro":
         print("El símbolo del Euro es €")
     elif moneda == "dollar":
@@ -20,5 +22,6 @@ if __name__ == "__main__":
     elif moneda == "yen":
         print("El símbolo del Yen es ¥")
     else:
+    #salida
         print("Esta divisa no está en el diccionario")
     resultado = monedasInternacionales(divisas,moneda)

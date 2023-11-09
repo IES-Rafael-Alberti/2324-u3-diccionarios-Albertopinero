@@ -7,10 +7,12 @@ def datosPersonales(nombre,edad,direccion,telefono):
     mensaje = datos['nombre']+' tiene '+str(datos['edad'])+' años, vive en '+datos['direccion']+' y su número de teléfono es '+datos['telefono']
     return mensaje
 if __name__ == "__main__":
+    #entrada
     nombre = input("Escribe tu nombre: ")
     edad = int(input("Escribe tu edad: "))
     direccion = input("Escribe tu dirección: ")
     telefono = input("Escribe tu número de teléfono: ")
+    #salida
     print("Procesando datos...")
     time.sleep(2)
     mensaje=datosPersonales(nombre,edad,direccion,telefono)
