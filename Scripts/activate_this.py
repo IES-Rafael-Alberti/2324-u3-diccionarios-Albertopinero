@@ -14,7 +14,11 @@ import sys
 try:
     abs_file = os.path.abspath(__file__)
 except NameError as exc:
+<<<<<<< HEAD
     msg = "You must use exec(open(this_file).read(), {'__file__': this_file}))"
+=======
+    msg = "You must use exec(open(this_file).read(), {'__file__': this_file})"
+>>>>>>> 2b34416506fa9123ea1e0d5aaf6ba707263dd63e
     raise AssertionError(msg) from exc
 
 bin_dir = os.path.dirname(abs_file)

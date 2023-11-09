@@ -58,7 +58,11 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
+<<<<<<< HEAD
 set -gx VIRTUAL_ENV 'C:\Users\alber\github-classroom\IES-Rafael-Alberti\2324-u3-diccionarios-Albertopinero\venv'
+=======
+set -gx VIRTUAL_ENV 'C:\Users\aalbe\github-classroom\IES-Rafael-Alberti\2324-u3-diccionarios-Albertopinero\venv'
+>>>>>>> 2b34416506fa9123ea1e0d5aaf6ba707263dd63e
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | head -c 1) -lt 3

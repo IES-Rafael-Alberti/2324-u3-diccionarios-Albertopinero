@@ -32,7 +32,11 @@ export-env {
       }
     }
 
+<<<<<<< HEAD
     let virtual_env = 'C:\Users\alber\github-classroom\IES-Rafael-Alberti\2324-u3-diccionarios-Albertopinero\venv'
+=======
+    let virtual_env = 'C:\Users\aalbe\github-classroom\IES-Rafael-Alberti\2324-u3-diccionarios-Albertopinero\venv'
+>>>>>>> 2b34416506fa9123ea1e0d5aaf6ba707263dd63e
     let bin = 'Scripts'
 
     let is_windows = ($nu.os-info.family) == 'windows'
